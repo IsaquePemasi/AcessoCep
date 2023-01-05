@@ -26,20 +26,14 @@ class BuscaEndereco:
         r = requests.get(url)
         dados = r.json()
         return (
+            dados['cep'],
+            dados['logradouro'],
+            dados['complemento'],
             dados['bairro'],
             dados['localidade'],
-            dados['uf']
+            dados['uf'],
+            dados['ddd'],
+            dados['ibge'],
+            dados['gia'],
+            dados['siafi'],
         )
-
-'''{
-  "cep": "06322-010",
-  "logradouro": "Avenida Eugênia",
-  "complemento": "",
-  "bairro": "Centro",
-  "localidade": "Carapicuíba",
-  "uf": "SP",
-  "ibge": "3510609",
-  "gia": "2550",
-  "ddd": "11",
-  "siafi": "6313"
-}'''
