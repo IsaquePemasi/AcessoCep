@@ -30,3 +30,16 @@ class BuscaEndereco:
             dados['localidade'],
             dados['uf']
         )
+
+'''{
+  "cep": "06322-010",
+  "logradouro": "Avenida Eugênia",
+  "complemento": "",
+  "bairro": "Centro",
+  "localidade": "Carapicuíba",
+  "uf": "SP",
+  "ibge": "3510609",
+  "gia": "2550",
+  "ddd": "11",
+  "siafi": "6313"
+}'''
