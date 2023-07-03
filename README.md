@@ -3,3 +3,5 @@
 <p><h2>Enter the zip code and find your:</h2><br>Public place;<br>Complement;<br>Neighborhood;<br>Location;<br>State;<br>area code;<br>IBGE,<br>GIA;<br>SIAFI.<br><p>
 <br>
 <img src = "/img/acessando_cep.png" alt = "acessando">
+<h2 align="center">Autor</h2>
+<a href="https://github.com/IsaquePemasi/"><img src="https://avatars.githubusercontent.com/u/76749511?v=4" width=115></a>
